@@ -38,12 +38,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+gap: 12px;
+font-family: emoji;
 }
 p {
-    color: brown;
+    color: white;
+    font-size: 30px;
 }
 h2 {
-    color: brown;
+    color: white;
+    font-size: 10px;
+    font-family: fantasy;
 }
 
 .karma-button {
@@ -75,6 +80,9 @@ content {
 .dcr-svg {
     width: 40px;
 }
+.content-p {
+    font-size: large;
+}
 h1 {
     font-size: small;
     color: black;
@@ -102,7 +110,7 @@ img {
 }
 /* footer section style */
 footer {
-    background-color: palevioletred;
+    background-color: white;
     margin-top: 10px;
 }
 
