@@ -76,6 +76,18 @@ content {
     align-items: center;
     gap: 7px;
 }
+content :nth-child(2){
+display: flex;
+flex-direction: row;
+}
+
+content :nth-child(3){
+
+}
+
+content :nth-child(4){
+    
+}
 
 .dcr-svg {
     width: 40px;
@@ -156,6 +168,9 @@ nav {
 .karma-svg {
     width: 22px;
 }
+.hamburger-svg{
+    display: none;
+}
 
 /* main section */
 main {
@@ -183,6 +198,7 @@ h2 {
     font-family: fantasy;
 }
 
+
 .karma-button {
     color: white;
     padding: 11px 30px;
@@ -207,11 +223,14 @@ content {
 }
 .dcr-svg-wrapper {
     display: flex;
+    flex-direction: row;
+
 }
 
 .dcr-svg {
-    width: 40px;
+    width: 100px;
 }
+
 .content-p {
     font-size: large;
 }
